@@ -1,0 +1,75 @@
+# ============================================
+# .dockerignore - فایل‌های نادیده گرفته شده در Build
+# ============================================
+
+# Build outputs
+**/bin/
+**/obj/
+**/out/
+
+# Visual Studio files
+**/.vs/
+**/*.user
+**/*.suo
+**/*.userosscache
+**/*.sln.docstates
+**/*.csproj.user
+**/*.csproj.vspscc
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+!DOCKER_DEPLOYMENT.md
+
+# Logs
+**/logs/
+**/*.log
+**/debug-runtime.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+**/TestResults/
+**/coverage/
+
+# Temporary files
+**/tmp/
+**/temp/
+**/*.tmp
+
+# PDF files
+*.pdf
+
+# Database files
+*.mdf
+*.ldf
+*.db
+
+# Backup files
+**/backup/
+**/*.bak
+
+# NuGet packages (will be restored)
+**/packages/
+
+# Node modules (if any)
+**/node_modules/
+

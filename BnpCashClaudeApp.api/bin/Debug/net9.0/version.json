@@ -1,0 +1,16 @@
+{
+  "backend": {
+    "version": "1.0.0",
+    "buildDate": "2024-01-15T10:30:00Z",
+    "buildNumber": "20240115.1",
+    "description": "BnpCashClaudeApp Backend API"
+  },
+  "frontend": {
+    "version": "1.0.0",
+    "buildDate": "2024-01-15T10:30:00Z",
+    "buildNumber": "20240115.1",
+    "description": "BnpCashClaudeApp Frontend",
+    "updateUrl": "",
+    "changelog": "Initial release"
+  }
+}

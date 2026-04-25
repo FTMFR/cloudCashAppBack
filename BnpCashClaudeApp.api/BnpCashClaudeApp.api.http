@@ -1,0 +1,6 @@
+@BnpCashClaudeApp.api_HostAddress = http://localhost:5117
+
+GET {{BnpCashClaudeApp.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,12 @@
+﻿dotnet ef migrations add InitialCreate -p BnpCashClaudeApp.Persistence -s BnpCashClaudeApp.Api
+
+dotnet ef migrations remove -p BnpCashClaudeApp.Persistence -s BnpCashClaudeApp.Api
+
+dotnet ef database update -p BnpCashClaudeApp.Persistence -s BnpCashClaudeApp.Api
+
+
+/////example add feild tblmenu
+
+ dotnet ef migrations add UpdateGrpCode --project BnpCashClaudeApp.Persistence -s BnpCashClaudeApp.Api --context NavigationDbContext
+
+ dotnet ef database update -p BnpCashClaudeApp.Persistence -s BnpCashClaudeApp.api --context NavigationDbContext

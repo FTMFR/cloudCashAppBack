@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BnpCashClaudeApp.Domain", "BnpCashClaudeApp.Domain\BnpCashClaudeApp.Domain.csproj", "{FE287B3D-2E98-4235-9321-1350C03E2841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BnpCashClaudeApp.Application", "BnpCashClaudeApp.Application\BnpCashClaudeApp.Application.csproj", "{E463144E-7A65-4F8D-811F-CCC5CB2F1884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BnpCashClaudeApp.Infrastructure", "BnpCashClaudeApp.Infrastructure\BnpCashClaudeApp.Infrastructure.csproj", "{A08A356D-1CC5-4A68-9C53-78B25244FEF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BnpCashClaudeApp.api", "BnpCashClaudeApp.api\BnpCashClaudeApp.api.csproj", "{E098936C-76C6-4A1C-8599-D946C69D13B0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8CD10DF7-D210-4444-AB82-BBE40A65E1C3} = {8CD10DF7-D210-4444-AB82-BBE40A65E1C3}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C69080CA-0585-494F-96C2-DF84506CDB25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{DF7A2FB4-BD67-401B-A52A-856602E69FCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FE69B574-0CEE-4452-9703-BA182099B1DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B96366FA-D389-4795-80DE-22BD8F1223FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BnpCashClaudeApp.Persistence", "BnpCashClaudeApp.Persistence\BnpCashClaudeApp.Persistence.csproj", "{8CD10DF7-D210-4444-AB82-BBE40A65E1C3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E463144E-7A65-4F8D-811F-CCC5CB2F1884} = {E463144E-7A65-4F8D-811F-CCC5CB2F1884}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE287B3D-2E98-4235-9321-1350C03E2841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE287B3D-2E98-4235-9321-1350C03E2841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE287B3D-2E98-4235-9321-1350C03E2841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE287B3D-2E98-4235-9321-1350C03E2841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E463144E-7A65-4F8D-811F-CCC5CB2F1884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E463144E-7A65-4F8D-811F-CCC5CB2F1884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E463144E-7A65-4F8D-811F-CCC5CB2F1884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E463144E-7A65-4F8D-811F-CCC5CB2F1884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08A356D-1CC5-4A68-9C53-78B25244FEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08A356D-1CC5-4A68-9C53-78B25244FEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08A356D-1CC5-4A68-9C53-78B25244FEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08A356D-1CC5-4A68-9C53-78B25244FEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E098936C-76C6-4A1C-8599-D946C69D13B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E098936C-76C6-4A1C-8599-D946C69D13B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E098936C-76C6-4A1C-8599-D946C69D13B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E098936C-76C6-4A1C-8599-D946C69D13B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD10DF7-D210-4444-AB82-BBE40A65E1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD10DF7-D210-4444-AB82-BBE40A65E1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD10DF7-D210-4444-AB82-BBE40A65E1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD10DF7-D210-4444-AB82-BBE40A65E1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE287B3D-2E98-4235-9321-1350C03E2841} = {FE69B574-0CEE-4452-9703-BA182099B1DD}
+		{E463144E-7A65-4F8D-811F-CCC5CB2F1884} = {FE69B574-0CEE-4452-9703-BA182099B1DD}
+		{A08A356D-1CC5-4A68-9C53-78B25244FEF5} = {B96366FA-D389-4795-80DE-22BD8F1223FD}
+		{E098936C-76C6-4A1C-8599-D946C69D13B0} = {DF7A2FB4-BD67-401B-A52A-856602E69FCE}
+		{DF7A2FB4-BD67-401B-A52A-856602E69FCE} = {C69080CA-0585-494F-96C2-DF84506CDB25}
+		{FE69B574-0CEE-4452-9703-BA182099B1DD} = {C69080CA-0585-494F-96C2-DF84506CDB25}
+		{B96366FA-D389-4795-80DE-22BD8F1223FD} = {C69080CA-0585-494F-96C2-DF84506CDB25}
+		{8CD10DF7-D210-4444-AB82-BBE40A65E1C3} = {B96366FA-D389-4795-80DE-22BD8F1223FD}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.2.5:8080/tfs/bnp
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BnpCashClaudeApp.Domain\\BnpCashClaudeApp.Domain.csproj
+		SccProjectTopLevelParentUniqueName1 = BnpCashClaudeApp.sln
+		SccProjectName1 = BnpCashClaudeApp.Domain
+		SccLocalPath1 = BnpCashClaudeApp.Domain
+		SccProjectUniqueName2 = BnpCashClaudeApp.Application\\BnpCashClaudeApp.Application.csproj
+		SccProjectTopLevelParentUniqueName2 = BnpCashClaudeApp.sln
+		SccProjectName2 = BnpCashClaudeApp.Application
+		SccLocalPath2 = BnpCashClaudeApp.Application
+		SccProjectUniqueName3 = BnpCashClaudeApp.Infrastructure\\BnpCashClaudeApp.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName3 = BnpCashClaudeApp.sln
+		SccProjectName3 = BnpCashClaudeApp.Infrastructure
+		SccLocalPath3 = BnpCashClaudeApp.Infrastructure
+		SccProjectUniqueName4 = BnpCashClaudeApp.api\\BnpCashClaudeApp.api.csproj
+		SccProjectTopLevelParentUniqueName4 = BnpCashClaudeApp.sln
+		SccProjectName4 = BnpCashClaudeApp.api
+		SccLocalPath4 = BnpCashClaudeApp.api
+		SccProjectUniqueName5 = BnpCashClaudeApp.Persistence\\BnpCashClaudeApp.Persistence.csproj
+		SccProjectTopLevelParentUniqueName5 = BnpCashClaudeApp.sln
+		SccProjectName5 = BnpCashClaudeApp.Persistence
+		SccLocalPath5 = BnpCashClaudeApp.Persistence
+	EndGlobalSection
+EndGlobal

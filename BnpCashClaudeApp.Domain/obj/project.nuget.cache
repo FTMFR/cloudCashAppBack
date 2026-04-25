@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "L4tYVXgDrUc=",
+  "success": true,
+  "projectFilePath": "D:\\Bnp Projects\\BnpCashClaudeApp\\bnpcashclaudeapp\\BnpCashClaudeApp.Domain\\BnpCashClaudeApp.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FatemehFarajzadeh\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://mirror-nuget.runflare.com/v3/index.json."
+    }
+  ]
+}

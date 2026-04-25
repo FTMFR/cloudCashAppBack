@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+	  <TargetFramework>net9.0</TargetFramework>
+	  <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- ============================================ -->
+    <!-- برای IWebHostEnvironment در سرویس Attachment -->
+    <!-- ============================================ -->
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <!-- ============================================ -->
+    <!-- برای IHttpClientFactory در سرویس X.509 -->
+    <!-- ============================================ -->
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0" />
+    <!-- ============================================ -->
+    <!-- برای BackgroundService در سرویس KeyRotation -->
+    <!-- ============================================ -->
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="10.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BnpCashClaudeApp.Application\BnpCashClaudeApp.Application.csproj" />
+    <ProjectReference Include="..\BnpCashClaudeApp.Persistence\BnpCashClaudeApp.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

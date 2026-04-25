@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Bnp Projects\\BnpCashClaudeApp\\BnpCashClaudeApp\\BnpCashClaudeApp.api\\wwwroot\\attachments\\2026\\02\\general\\0df60d07ac8945b5b46847188fbefc2e.png",
+      "PackagePath": "staticwebassets\\attachments\\2026\\02\\general\\0df60d07ac8945b5b46847188fbefc2e.png"
+    },
+    {
+      "Id": "D:\\Bnp Projects\\BnpCashClaudeApp\\BnpCashClaudeApp\\BnpCashClaudeApp.api\\wwwroot\\attachments\\2026\\02\\general\\11136dd9b88b4698a4dcb5971bd626dc.jpg",
+      "PackagePath": "staticwebassets\\attachments\\2026\\02\\general\\11136dd9b88b4698a4dcb5971bd626dc.jpg"
+    },
+    {
+      "Id": "D:\\Bnp Projects\\BnpCashClaudeApp\\BnpCashClaudeApp\\BnpCashClaudeApp.api\\wwwroot\\attachments\\2026\\02\\general\\1c1e066a384c41d5b1f526556e1282ab.png",
+      "PackagePath": "staticwebassets\\attachments\\2026\\02\\general\\1c1e066a384c41d5b1f526556e1282ab.png"
+    },
+    {
+      "Id": "D:\\Bnp Projects\\BnpCashClaudeApp\\BnpCashClaudeApp\\BnpCashClaudeApp.api\\wwwroot\\attachments\\2026\\02\\general\\29637adbbe674889910df6165896baa5.png",
+      "PackagePath": "staticwebassets\\attachments\\2026\\02\\general\\29637adbbe674889910df6165896baa5.png"
+    },
+    {
+      "Id": "D:\\Bnp Projects\\BnpCashClaudeApp\\BnpCashClaudeApp\\BnpCashClaudeApp.api\\wwwroot\\attachments\\2026\\02\\general\\30483e83b7cb4c9a8e7f51edc8bd3ec7.jpg",
+      "PackagePath": "staticwebassets\\attachments\\2026\\02\\general\\30483e83b7cb4c9a8e7f51edc8bd3ec7.jpg"
+    },
+    {
+      "Id": "D:\\Bnp Projects\\BnpCashClaudeApp\\BnpCashClaudeApp\\BnpCashClaudeApp.api\\wwwroot\\attachments\\2026\\02\\general\\3a8e98d957754d7ebfde23e0794b7de9.png",
+      "PackagePath": "staticwebassets\\attachments\\2026\\02\\general\\3a8e98d957754d7ebfde23e0794b7de9.png"
+    },
+    {
+      "Id": "D:\\Bnp Projects\\BnpCashClaudeApp\\BnpCashClaudeApp\\BnpCashClaudeApp.api\\wwwroot\\attachments\\2026\\02\\general\\5fa5c8b9f6b44e87ae46cbd10707a9de.jpg",
+      "PackagePath": "staticwebassets\\attachments\\2026\\02\\general\\5fa5c8b9f6b44e87ae46cbd10707a9de.jpg"
+    },
+    {
+      "Id": "D:\\Bnp Projects\\BnpCashClaudeApp\\BnpCashClaudeApp\\BnpCashClaudeApp.api\\wwwroot\\attachments\\2026\\02\\general\\72b2b28f7b31435691cef2533a779d89.jpg",
+      "PackagePath": "staticwebassets\\attachments\\2026\\02\\general\\72b2b28f7b31435691cef2533a779d89.jpg"
+    },
+    {
+      "Id": "D:\\Bnp Projects\\BnpCashClaudeApp\\BnpCashClaudeApp\\BnpCashClaudeApp.api\\wwwroot\\attachments\\2026\\02\\general\\73431010bd924a37975f739fa8c6645c.jpg",
+      "PackagePath": "staticwebassets\\attachments\\2026\\02\\general\\73431010bd924a37975f739fa8c6645c.jpg"
+    },
+    {
+      "Id": "D:\\Bnp Projects\\BnpCashClaudeApp\\BnpCashClaudeApp\\BnpCashClaudeApp.api\\wwwroot\\attachments\\2026\\02\\general\\94db1e9f21864bb1b685f277c3caa4d5.png",
+      "PackagePath": "staticwebassets\\attachments\\2026\\02\\general\\94db1e9f21864bb1b685f277c3caa4d5.png"
+    },
+    {
+      "Id": "D:\\Bnp Projects\\BnpCashClaudeApp\\BnpCashClaudeApp\\BnpCashClaudeApp.api\\wwwroot\\attachments\\2026\\02\\general\\a51e5f9784154741acbf2ba8a0eb103a.jpg",
+      "PackagePath": "staticwebassets\\attachments\\2026\\02\\general\\a51e5f9784154741acbf2ba8a0eb103a.jpg"
+    },
+    {
+      "Id": "D:\\Bnp Projects\\BnpCashClaudeApp\\BnpCashClaudeApp\\BnpCashClaudeApp.api\\wwwroot\\attachments\\2026\\02\\general\\a7889bb568164be4b3a7c7d571544291.png",
+      "PackagePath": "staticwebassets\\attachments\\2026\\02\\general\\a7889bb568164be4b3a7c7d571544291.png"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.BnpCashClaudeApp.api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.BnpCashClaudeApp.api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.build.BnpCashClaudeApp.api.props",
+      "PackagePath": "build\\BnpCashClaudeApp.api.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.BnpCashClaudeApp.api.props",
+      "PackagePath": "buildMultiTargeting\\BnpCashClaudeApp.api.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.buildTransitive.BnpCashClaudeApp.api.props",
+      "PackagePath": "buildTransitive\\BnpCashClaudeApp.api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

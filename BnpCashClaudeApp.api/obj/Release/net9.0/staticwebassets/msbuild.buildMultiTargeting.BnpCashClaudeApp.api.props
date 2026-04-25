@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BnpCashClaudeApp.api.props" />
+</Project>

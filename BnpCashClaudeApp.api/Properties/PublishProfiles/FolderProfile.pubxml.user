@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\cloudeAPI</_PublishTargetUrl>
+    <History>False|2026-03-10T12:12:05.1909918Z||;False|2026-03-10T14:00:24.4754313+03:30||;False|2026-03-10T13:44:46.8189300+03:30||;True|2026-03-10T11:53:19.9090460+03:30||;True|2026-01-05T13:23:31.8832355+03:30||;True|2026-01-05T13:09:18.3109544+03:30||;True|2026-01-05T13:09:03.2136030+03:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
