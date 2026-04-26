@@ -108,7 +108,8 @@ namespace BnpCashClaudeApp.api.Controllers.Navigation
 
             var result = await _mediator.Send(command);
             await LogAuditEventAsync("Create", "Grp", result.ToString(), true);
-            return CreatedAtAction(nameof(GetById), new { publicId = result }, result);
+            //return CreatedAtAction(nameof(GetById), new { publicId = result }, result);
+            return Ok(new ResultDto(true, "عملیات با موفقیت انجام شد"));
         }
 
         /// <summary>
@@ -153,18 +154,26 @@ namespace BnpCashClaudeApp.api.Controllers.Navigation
         [RequirePermission("Groups.Delete")]
         public async Task<IActionResult> Delete(Guid publicId)
         {
-            var command = new DeleteGrpCommand { PublicId = publicId };
-
-            var result = await _mediator.Send(command);
-
-            if (!result)
+            try
             {
-                await LogAuditEventAsync("Delete", "Grp", publicId.ToString(), false, "خطا در انجام عملیات");
-                return Ok(new ResultDto(false, "خطا در انجام عملیات!"));
+                var command = new DeleteGrpCommand { PublicId = publicId };
+
+                var result = await _mediator.Send(command);
+
+                if (!result)
+                {
+                    await LogAuditEventAsync("Delete", "Grp", publicId.ToString(), false, "خطا در انجام عملیات");
+                    return Ok(new ResultDto(false, "خطا در انجام عملیات!"));
+                }
+
+                await LogAuditEventAsync("Delete", "Grp", publicId.ToString(), true);
+                return Ok(new ResultDto(true, "عملیات با موفقیت انجام شد"));
+            }
+            catch (Exception)
+            {
+                return Ok(new ResultDto(false, "خطا در انجام عملیات ، اماکان داشتن زیر گروه یا وابسته بودن به کاربر"));
             }
 
-            await LogAuditEventAsync("Delete", "Grp", publicId.ToString(), true);
-            return Ok(new ResultDto(true, "عملیات با موفقیت انجام شد"));
         }
 
         private async Task<T> ProtectReadPayloadAsync<T>(

@@ -35,6 +35,9 @@
   <ItemGroup>
     <ProjectReference Include="..\BnpCashClaudeApp.Application\BnpCashClaudeApp.Application.csproj" />
     <ProjectReference Include="..\BnpCashClaudeApp.Infrastructure\BnpCashClaudeApp.Infrastructure.csproj" />
+	 <None Update="dev-cert.pfx">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	 </None>
   </ItemGroup>
 
   <ItemGroup>

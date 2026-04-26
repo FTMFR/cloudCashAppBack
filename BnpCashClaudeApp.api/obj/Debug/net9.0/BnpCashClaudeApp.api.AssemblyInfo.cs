@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BnpCashClaudeApp.api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ff539ac9b5cf79beffb7802f21a17c38b507902")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+587d3e900be4831c75d26e4f5259d296cf0aa8bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("BnpCashClaudeApp.api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BnpCashClaudeApp.api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

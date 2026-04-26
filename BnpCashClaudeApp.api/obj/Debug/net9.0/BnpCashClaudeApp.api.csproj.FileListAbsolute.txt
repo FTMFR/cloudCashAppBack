@@ -185,3 +185,5 @@ D:\Bnp Projects\BnpCashClaudeApp\BnpCashClaudeApp\BnpCashClaudeApp.api\obj\Debug
 D:\Bnp Projects\BnpCashClaudeApp\BnpCashClaudeApp\BnpCashClaudeApp.api\bin\Debug\net9.0\version.json
 D:\Bnp Projects\BnpCashClaudeApp\BnpCashClaudeApp\BnpCashClaudeApp.api\obj\Debug\net9.0\BnpCashClaudeApp.api.MvcApplicationPartsAssemblyInfo.cs
 D:\Bnp Projects\BnpCashClaudeApp\BnpCashClaudeApp\BnpCashClaudeApp.api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\Bnp Projects\BnpCashClaudeApp\BnpCashClaudeApp\BnpCashClaudeApp.api\bin\Debug\net9.0\dev-cert.pfx
+D:\Bnp Projects\BnpCashClaudeApp\BnpCashClaudeApp\BnpCashClaudeApp.api\obj\Debug\net9.0\BnpCashClaudeApp.api.sourcelink.json
