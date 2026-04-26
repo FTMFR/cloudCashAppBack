@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for cloudcashappback-8zs1rq on 2026-04-26T06:32:16Z
+# fly.toml app configuration file generated for cloudcashappback on 2026-04-26T06:41:25Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'cloudcashappback-8zs1rq'
+app = 'cloudcashappback'
 primary_region = 'ams'
 
 [build]
