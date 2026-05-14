@@ -400,7 +400,7 @@ namespace BnpCashClaudeApp.api.Controllers.Log
         [RequirePermission("AuditLog.Read")]
         [ProducesResponseType(typeof(AuditLogWithDetailsDto), 200)]
         [ProducesResponseType(404)]
-        public async Task<ActionResult<AuditLogWithDetailsDto>> GetById(int id)
+        public async Task<ActionResult<AuditLogWithDetailsDto>> GetById(long id)
         {
             try
             {

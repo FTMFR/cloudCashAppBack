@@ -181,7 +181,7 @@ namespace BnpCashClaudeApp.Infrastructure.Services
         /// <summary>
         /// بررسی اینکه آیا رمز عبور در تاریخچه رمزهای قبلی کاربر وجود دارد
         /// </summary>
-        public bool IsPasswordInHistory(int userId, string newPasswordHash)
+        public bool IsPasswordInHistory(long userId, string newPasswordHash)
         {
             // این متد از IPasswordHistoryService استفاده می‌شود
             // پیاده‌سازی واقعی در AuthController انجام می‌شود

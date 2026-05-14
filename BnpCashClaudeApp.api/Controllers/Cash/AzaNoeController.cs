@@ -50,7 +50,7 @@ namespace BnpCashClaudeApp.api.Controllers.Cash
         public async Task<ActionResult<List<AzaNoeDto>>> GetAll(
             [FromQuery] Guid? shobePublicId = null,
             [FromQuery] Guid? tafsiliTypePublicId = null,
-            [FromQuery] bool onlyActive = true)
+            [FromQuery] bool isActive = true)
         {
             try
             {
@@ -58,7 +58,7 @@ namespace BnpCashClaudeApp.api.Controllers.Cash
                 {
                     ShobePublicId = shobePublicId,
                     TafsiliTypePublicId = tafsiliTypePublicId,
-                    OnlyActive = onlyActive
+                    IsActive = isActive
                 };
                 var result = await _mediator.Send(query);
                 var protectedResult = await ProtectReadPayloadAsync(result, "AzaNoeList");

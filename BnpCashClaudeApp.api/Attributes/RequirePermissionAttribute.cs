@@ -105,7 +105,7 @@ namespace BnpCashClaudeApp.api.Attributes
 
             // دریافت UserId از Claims
             var userIdClaim = user.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (!int.TryParse(userIdClaim, out var userId))
+            if (!long.TryParse(userIdClaim, out var userId))
             {
                 context.Result = new UnauthorizedObjectResult(new
                 {
@@ -274,7 +274,7 @@ namespace BnpCashClaudeApp.api.Attributes
 
         private async Task LogAuthorizationPolicyDenied(
             AuthorizationFilterContext context,
-            int userId,
+            long userId,
             string permission,
             string? reason)
         {
@@ -301,7 +301,7 @@ namespace BnpCashClaudeApp.api.Attributes
             }
         }
 
-        private async Task LogUnauthorizedAccess(AuthorizationFilterContext context, int? userId, string reason)
+        private async Task LogUnauthorizedAccess(AuthorizationFilterContext context, long? userId, string reason)
         {
             try
             {
@@ -326,7 +326,7 @@ namespace BnpCashClaudeApp.api.Attributes
             }
         }
 
-        private async Task LogAccessDenied(AuthorizationFilterContext context, int userId, string? userName)
+        private async Task LogAccessDenied(AuthorizationFilterContext context, long userId, string? userName)
         {
             try
             {
@@ -355,7 +355,7 @@ namespace BnpCashClaudeApp.api.Attributes
         /// <summary>
         /// ثبت رویداد Fail-Secure در Audit Log
         /// </summary>
-        private async Task LogFailSecureEvent(AuthorizationFilterContext context, int userId, Exception ex)
+        private async Task LogFailSecureEvent(AuthorizationFilterContext context, long userId, Exception ex)
         {
             try
             {
@@ -439,7 +439,7 @@ namespace BnpCashClaudeApp.api.Attributes
             }
 
             var userIdClaim = user.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (!int.TryParse(userIdClaim, out var userId))
+            if (!long.TryParse(userIdClaim, out var userId))
             {
                 context.Result = new UnauthorizedObjectResult(new
                 {
@@ -628,7 +628,7 @@ namespace BnpCashClaudeApp.api.Attributes
             }
 
             var userIdClaim = user.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (!int.TryParse(userIdClaim, out var userId))
+            if (!long.TryParse(userIdClaim, out var userId))
             {
                 context.Result = new UnauthorizedObjectResult(new
                 {

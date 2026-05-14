@@ -118,7 +118,7 @@ namespace BnpCashClaudeApp.Application.Interfaces
         /// <param name="userId">شناسه کاربر</param>
         /// <param name="newPasswordHash">Hash رمز عبور جدید</param>
         /// <returns>آیا رمز عبور تکراری است</returns>
-        bool IsPasswordInHistory(int userId, string newPasswordHash);
+        bool IsPasswordInHistory(long userId, string newPasswordHash);
     }
 }
 

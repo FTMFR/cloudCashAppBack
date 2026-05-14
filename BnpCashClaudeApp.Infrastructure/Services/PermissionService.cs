@@ -117,7 +117,7 @@ namespace BnpCashClaudeApp.Infrastructure.Services
                         entityId: permission,
                         isSuccess: false,
                         errorMessage: $"FAIL-SECURE: Permission check failed - {ex.GetType().Name}",
-                        userId: (int)userId,
+                        userId: userId,
                         description: $"FAIL-SECURE: Access denied for user {userId} to permission {permission} due to system failure: {ex.GetType().Name}",
                         ct: default);
                 }
@@ -432,7 +432,7 @@ namespace BnpCashClaudeApp.Infrastructure.Services
                         entityId: string.Join(",", requestedPermissions),
                         isSuccess: false,
                         errorMessage: $"FAIL-SECURE: HasAllPermissions check failed - {ex.GetType().Name}",
-                        userId: (int)userId,
+                        userId: userId,
                         description: $"FAIL-SECURE: Access denied for user {userId} due to system failure",
                         ct: default);
                 }
@@ -502,7 +502,7 @@ namespace BnpCashClaudeApp.Infrastructure.Services
                         entityId: string.Join(",", requestedPermissions),
                         isSuccess: false,
                         errorMessage: $"FAIL-SECURE: HasAnyPermission check failed - {ex.GetType().Name}",
-                        userId: (int)userId,
+                        userId: userId,
                         description: $"FAIL-SECURE: Access denied for user {userId} due to system failure",
                         ct: default);
                 }

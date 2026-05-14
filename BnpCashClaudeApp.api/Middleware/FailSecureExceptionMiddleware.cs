@@ -299,10 +299,10 @@ namespace BnpCashClaudeApp.api.Middleware
         /// <summary>
         /// دریافت شناسه کاربر از Context
         /// </summary>
-        private int? GetUserIdFromContext(HttpContext context)
+        private long? GetUserIdFromContext(HttpContext context)
         {
             var userIdClaim = context.User?.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
-            if (int.TryParse(userIdClaim, out var userId))
+            if (long.TryParse(userIdClaim, out var userId))
                 return userId;
             return null;
         }

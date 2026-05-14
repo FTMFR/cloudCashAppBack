@@ -219,7 +219,7 @@ namespace BnpCashClaudeApp.Infrastructure.Services
                     entityType: "System",
                     entityId: "FailSecure",
                     isSuccess: true,
-                    userId: (int)deactivatedBy,
+                    userId: deactivatedBy,
                     description: $"🔓 SECURE MODE DEACTIVATED by administrator (UserId: {deactivatedBy})",
                     ct: ct);
             }

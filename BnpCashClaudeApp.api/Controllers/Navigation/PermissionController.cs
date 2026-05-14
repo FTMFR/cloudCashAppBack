@@ -293,7 +293,7 @@ namespace BnpCashClaudeApp.api.Controllers.Navigation
             try
             {
                 var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-                if (!int.TryParse(userIdClaim, out var userId))
+                if (!long.TryParse(userIdClaim, out var userId))
                 {
                     return Unauthorized(new { message = "شناسه کاربر نامعتبر است" });
                 }
@@ -676,7 +676,7 @@ namespace BnpCashClaudeApp.api.Controllers.Navigation
         public async Task<IActionResult> UpdateGroupAccess(Guid groupPublicId, [FromBody] UpdateGroupAccessRequest request)
         {
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (!int.TryParse(userIdClaim, out var grantedBy))
+            if (!long.TryParse(userIdClaim, out var grantedBy))
             {
                 return Unauthorized(new { message = "شناسه کاربر نامعتبر است" });
             }
